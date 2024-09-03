@@ -1,0 +1,60 @@
+2024-08-25 16:55:13,371 ERROR 15656 [-/127.0.0.1/-/2ms GET /user] nodejs.TypeError: Cannot read properties of undefined (reading 'all')
+    at UserService.userList (E:\workspace\egg-example\app\service\user.js:6:35)
+    at HomeController.getUser (E:\workspace\egg-example\app\controller\home.js:10:28)
+    at Object.callFn (E:\workspace\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\workspace\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\workspace\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\workspace\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\workspace\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\workspace\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\workspace\egg-example\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (E:\workspace\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 15656
+hostname: DESKTOP-R22V4MU
+
+2024-08-25 21:54:29,476 ERROR 6808 [-/127.0.0.1/-/4ms GET /saylo] nodejs.TypeError: proj.title.contains is not a function
+    at E:\workspace\egg-example\app\service\saylo.js:29:28
+    at Array.forEach (<anonymous>)
+    at SayloService.scoreException (E:\workspace\egg-example\app\service\saylo.js:28:22)
+    at async HomeController.getScoreException (E:\workspace\egg-example\app\controller\home.js:14:5)
+    at async E:\workspace\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (E:\workspace\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\workspace\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\workspace\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\workspace\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\workspace\egg-example\node_modules\koa-session\index.js:41:7)
+
+pid: 6808
+hostname: DESKTOP-R22V4MU
+
+2024-08-30 18:53:28,496 ERROR 311056 [-/::1/-/2ms GET /saylo/getLabelAmount?start=2024-08-23T15:59:59.999Z&end=2024-08-30T15:59:59.999Z] nodejs.ReferenceError: db is not defined
+    at count (E:\workspace\egg-example\app\service\saylo.js:60:17)
+    at new Promise (<anonymous>)
+    at SayloService.getLabelAmount (E:\workspace\egg-example\app\service\saylo.js:59:33)
+    at SayloController.getLabelAmount (E:\workspace\egg-example\app\controller\saylo.js:6:33)
+    at Object.callFn (E:\workspace\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\workspace\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\workspace\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\workspace\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\workspace\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\workspace\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+
+pid: 311056
+hostname: DESKTOP-R22V4MU
+
+2024-08-30 23:48:27,480 ERROR 446224 [-/::1/-/1ms GET /saylo/getLabelAmount?start=2024-08-23T15:59:59.999Z&end=2024-08-30T15:59:59.999Z] nodejs.ReferenceError: str is not defined
+    at result (E:\workspace\egg-example\app\service\saylo.js:61:24)
+    at new Promise (<anonymous>)
+    at SayloService.getLabelAmount (E:\workspace\egg-example\app\service\saylo.js:60:34)
+    at SayloController.getLabelAmount (E:\workspace\egg-example\app\controller\saylo.js:6:46)
+    at Object.callFn (E:\workspace\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\workspace\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\workspace\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\workspace\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\workspace\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\workspace\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+
+pid: 446224
+hostname: DESKTOP-R22V4MU
+

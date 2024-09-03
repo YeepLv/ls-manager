@@ -1,0 +1,300 @@
+2024-08-31 00:51:02,214 ERROR 473572 [-/::1/-/2ms GET /saylo/getLabelAmount?start=2024-08-24T15:59:59.999Z&end=2024-08-31T15:59:59.999Z] nodejs.TypeError: start_time.toISOString is not a function
+    at SayloService.getLabelAmount (E:\workspace\egg-example\app\service\saylo.js:61:126)
+    at SayloController.getLabelAmount (E:\workspace\egg-example\app\controller\saylo.js:6:46)
+    at Object.callFn (E:\workspace\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\workspace\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\workspace\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\workspace\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\workspace\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\workspace\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\workspace\egg-example\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (E:\workspace\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 473572
+hostname: DESKTOP-R22V4MU
+
+2024-08-31 00:52:53,531 ERROR 473996 [-/::1/-/1ms GET /saylo/getLabelAmount?start=2024-08-24T15:59:59.999Z&end=2024-08-31T15:59:59.999Z] nodejs.TypeError: start_time.toISOString is not a function
+    at SayloService.getLabelAmount (E:\workspace\egg-example\app\service\saylo.js:61:126)
+    at SayloController.getLabelAmount (E:\workspace\egg-example\app\controller\saylo.js:6:46)
+    at Object.callFn (E:\workspace\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\workspace\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\workspace\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\workspace\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\workspace\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\workspace\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\workspace\egg-example\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (E:\workspace\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 473996
+hostname: DESKTOP-R22V4MU
+
+2024-08-31 00:53:11,144 ERROR 475100 [-/::1/-/2ms GET /saylo/getLabelAmount?start=2024-08-24T15:59:59.999Z&end=2024-08-31T15:59:59.999Z] nodejs.TypeError: start_time.toISOString is not a function
+    at SayloService.getLabelAmount (E:\workspace\egg-example\app\service\saylo.js:62:126)
+    at SayloController.getLabelAmount (E:\workspace\egg-example\app\controller\saylo.js:6:46)
+    at Object.callFn (E:\workspace\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\workspace\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\workspace\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\workspace\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\workspace\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\workspace\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\workspace\egg-example\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (E:\workspace\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 475100
+hostname: DESKTOP-R22V4MU
+
+2024-08-31 00:53:34,156 ERROR 475100 [-/::1/-/2ms GET /saylo/getLabelAmount?start=2024-08-24T15:59:59.999Z&end=2024-08-31T15:59:59.999Z] nodejs.TypeError: start_time.toISOString is not a function
+    at SayloService.getLabelAmount (E:\workspace\egg-example\app\service\saylo.js:62:126)
+    at SayloController.getLabelAmount (E:\workspace\egg-example\app\controller\saylo.js:6:46)
+    at Object.callFn (E:\workspace\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\workspace\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\workspace\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\workspace\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\workspace\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\workspace\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\workspace\egg-example\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (E:\workspace\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 475100
+hostname: DESKTOP-R22V4MU
+
+2024-08-31 00:53:53,090 ERROR 475100 [-/::1/-/0ms GET /saylo/getLabelAmount?start=2024-08-24T15:59:59.999Z&end=2024-08-31T15:59:59.999Z] nodejs.TypeError: start_time.toISOString is not a function
+    at SayloService.getLabelAmount (E:\workspace\egg-example\app\service\saylo.js:62:126)
+    at SayloController.getLabelAmount (E:\workspace\egg-example\app\controller\saylo.js:6:46)
+    at Object.callFn (E:\workspace\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\workspace\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\workspace\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\workspace\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\workspace\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\workspace\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\workspace\egg-example\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (E:\workspace\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 475100
+hostname: DESKTOP-R22V4MU
+
+2024-08-31 00:56:48,058 ERROR 476312 [-/::1/-/2ms GET /saylo/getLabelAmount?start=2024-08-24T15:59:59.999Z&end=2024-08-31T15:59:59.999Z] nodejs.TypeError: start_time.toISOString is not a function
+    at SayloService.getLabelAmount (E:\workspace\egg-example\app\service\saylo.js:62:126)
+    at SayloController.getLabelAmount (E:\workspace\egg-example\app\controller\saylo.js:6:46)
+    at Object.callFn (E:\workspace\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\workspace\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\workspace\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\workspace\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\workspace\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\workspace\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\workspace\egg-example\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (E:\workspace\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 476312
+hostname: DESKTOP-R22V4MU
+
+2024-08-31 00:59:57,331 ERROR 476816 [-/::1/-/2ms GET /saylo/getLabelAmount?start=2024-08-24T15:59:59.999Z&end=2024-08-31T15:59:59.999Z] nodejs.TypeError: start_time.toISOString is not a function
+    at SayloService.getLabelAmount (E:\workspace\egg-example\app\service\saylo.js:63:126)
+    at SayloController.getLabelAmount (E:\workspace\egg-example\app\controller\saylo.js:6:46)
+    at Object.callFn (E:\workspace\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\workspace\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\workspace\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\workspace\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\workspace\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\workspace\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\workspace\egg-example\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (E:\workspace\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 476816
+hostname: DESKTOP-R22V4MU
+
+2024-08-31 01:03:14,463 ERROR 477244 [-/::1/-/2ms GET /saylo/getLabelAmount?start=2024-08-24T15:59:59.999Z&end=2024-08-31T15:59:59.999Z] nodejs.TypeError: start_time.getHours is not a function
+    at SayloService.getLabelAmount (E:\workspace\egg-example\app\service\saylo.js:61:44)
+    at SayloController.getLabelAmount (E:\workspace\egg-example\app\controller\saylo.js:6:46)
+    at Object.callFn (E:\workspace\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\workspace\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\workspace\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\workspace\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\workspace\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\workspace\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\workspace\egg-example\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (E:\workspace\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 477244
+hostname: DESKTOP-R22V4MU
+
+2024-08-31 18:09:19,560 ERROR 30976 [-/::1/-/1ms GET /saylo/getLabelDetails] nodejs.ReferenceError: db is not defined
+    at results (E:\workspace\egg-example\app\service\saylo.js:97:13)
+    at new Promise (<anonymous>)
+    at SayloService.getLabelDetails (E:\workspace\egg-example\app\service\saylo.js:96:31)
+    at SayloController.getLabelDetails (E:\workspace\egg-example\app\controller\saylo.js:14:46)
+    at Object.callFn (E:\workspace\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\workspace\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\workspace\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\workspace\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\workspace\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\workspace\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+
+pid: 30976
+hostname: DESKTOP-R22V4MU
+
+2024-08-31 18:09:51,647 ERROR 30976 [-/::1/-/1ms GET /saylo/getLabelDetails] nodejs.ReferenceError: db is not defined
+    at results (E:\workspace\egg-example\app\service\saylo.js:97:13)
+    at new Promise (<anonymous>)
+    at SayloService.getLabelDetails (E:\workspace\egg-example\app\service\saylo.js:96:31)
+    at SayloController.getLabelDetails (E:\workspace\egg-example\app\controller\saylo.js:14:46)
+    at Object.callFn (E:\workspace\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\workspace\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\workspace\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\workspace\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\workspace\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\workspace\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+
+pid: 30976
+hostname: DESKTOP-R22V4MU
+
+2024-08-31 18:10:16,692 ERROR 31068 [-/::1/-/4ms GET /saylo/getLabelDetails] nodejs.ReferenceError: item is not defined
+    at SayloService.getLabelDetails (E:\workspace\egg-example\app\service\saylo.js:108:14)
+    at async SayloController.getLabelDetails (E:\workspace\egg-example\app\controller\saylo.js:14:22)
+    at async E:\workspace\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (E:\workspace\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\workspace\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\workspace\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\workspace\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\workspace\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\workspace\egg-example\node_modules\koa-bodyparser\index.js:78:5)
+    at async E:\workspace\egg-example\node_modules\koa-static-cache\index.js:41:56
+
+pid: 31068
+hostname: DESKTOP-R22V4MU
+
+2024-08-31 18:29:10,842 ERROR 27744 [-/::1/-/5ms GET /saylo/getLabelDetails] nodejs.ReferenceError: results is not defined
+    at SayloService.getLabelDetails (E:\workspace\egg-example\app\service\saylo.js:110:26)
+    at async SayloController.getLabelDetails (E:\workspace\egg-example\app\controller\saylo.js:14:22)
+    at async E:\workspace\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (E:\workspace\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\workspace\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\workspace\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\workspace\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\workspace\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\workspace\egg-example\node_modules\koa-bodyparser\index.js:78:5)
+    at async E:\workspace\egg-example\node_modules\koa-static-cache\index.js:41:56
+
+pid: 27744
+hostname: DESKTOP-R22V4MU
+
+2024-08-31 19:34:38,374 ERROR 31672 [-/::1/-/5ms GET /saylo/getLabelDetails] nodejs.TypeError: Cannot read properties of undefined (reading 'push')
+    at SayloService.getLabelDetails (E:\workspace\egg-example\app\service\saylo.js:154:67)
+    at async SayloController.getLabelDetails (E:\workspace\egg-example\app\controller\saylo.js:14:22)
+    at async E:\workspace\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (E:\workspace\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\workspace\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\workspace\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\workspace\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\workspace\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\workspace\egg-example\node_modules\koa-bodyparser\index.js:78:5)
+    at async E:\workspace\egg-example\node_modules\koa-static-cache\index.js:41:56
+
+pid: 31672
+hostname: DESKTOP-R22V4MU
+
+2024-08-31 20:33:40,980 ERROR 27896 [-/::1/-/6ms GET /saylo/getLabelDetails] nodejs.TypeError: Cannot read properties of undefined (reading '10')
+    at E:\workspace\egg-example\app\service\saylo.js:21:22
+    at Array.forEach (<anonymous>)
+    at countOccurrences (E:\workspace\egg-example\app\service\saylo.js:19:25)
+    at E:\workspace\egg-example\app\service\saylo.js:209:41
+    at Array.forEach (<anonymous>)
+    at SayloService.getLabelDetails (E:\workspace\egg-example\app\service\saylo.js:205:35)
+    at async SayloController.getLabelDetails (E:\workspace\egg-example\app\controller\saylo.js:14:22)
+    at async E:\workspace\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (E:\workspace\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\workspace\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+
+pid: 27896
+hostname: DESKTOP-R22V4MU
+
+2024-08-31 20:35:00,278 ERROR 8416 [-/::1/-/6ms GET /saylo/getLabelDetails] nodejs.TypeError: Cannot read properties of undefined (reading '10')
+    at E:\workspace\egg-example\app\service\saylo.js:21:22
+    at Array.forEach (<anonymous>)
+    at countOccurrences (E:\workspace\egg-example\app\service\saylo.js:19:25)
+    at E:\workspace\egg-example\app\service\saylo.js:210:41
+    at Array.forEach (<anonymous>)
+    at SayloService.getLabelDetails (E:\workspace\egg-example\app\service\saylo.js:205:35)
+    at async SayloController.getLabelDetails (E:\workspace\egg-example\app\controller\saylo.js:14:22)
+    at async E:\workspace\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (E:\workspace\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\workspace\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+
+pid: 8416
+hostname: DESKTOP-R22V4MU
+
+2024-08-31 20:35:21,451 ERROR 19532 [-/::1/-/7ms GET /saylo/getLabelDetails] nodejs.TypeError: Cannot read properties of undefined (reading '4')
+    at E:\workspace\egg-example\app\service\saylo.js:21:22
+    at Array.forEach (<anonymous>)
+    at countOccurrences (E:\workspace\egg-example\app\service\saylo.js:19:25)
+    at E:\workspace\egg-example\app\service\saylo.js:216:38
+    at Array.forEach (<anonymous>)
+    at SayloService.getLabelDetails (E:\workspace\egg-example\app\service\saylo.js:205:35)
+    at async SayloController.getLabelDetails (E:\workspace\egg-example\app\controller\saylo.js:14:22)
+    at async E:\workspace\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (E:\workspace\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\workspace\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+
+pid: 19532
+hostname: DESKTOP-R22V4MU
+
+2024-08-31 20:36:19,721 ERROR 22672 [-/::1/-/10ms GET /saylo/getLabelDetails] nodejs.TypeError: Cannot read properties of undefined (reading '4')
+    at E:\workspace\egg-example\app\service\saylo.js:21:22
+    at Array.forEach (<anonymous>)
+    at countOccurrences (E:\workspace\egg-example\app\service\saylo.js:19:25)
+    at E:\workspace\egg-example\app\service\saylo.js:217:38
+    at Array.forEach (<anonymous>)
+    at SayloService.getLabelDetails (E:\workspace\egg-example\app\service\saylo.js:206:35)
+    at async SayloController.getLabelDetails (E:\workspace\egg-example\app\controller\saylo.js:14:22)
+    at async E:\workspace\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (E:\workspace\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\workspace\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+
+pid: 22672
+hostname: DESKTOP-R22V4MU
+
+2024-08-31 20:37:15,629 ERROR 29024 [-/::1/-/6ms GET /saylo/getLabelDetails] nodejs.TypeError: Cannot read properties of undefined (reading '4')
+    at E:\workspace\egg-example\app\service\saylo.js:21:22
+    at Array.forEach (<anonymous>)
+    at countOccurrences (E:\workspace\egg-example\app\service\saylo.js:19:25)
+    at E:\workspace\egg-example\app\service\saylo.js:216:38
+    at Array.forEach (<anonymous>)
+    at SayloService.getLabelDetails (E:\workspace\egg-example\app\service\saylo.js:205:35)
+    at async SayloController.getLabelDetails (E:\workspace\egg-example\app\controller\saylo.js:14:22)
+    at async E:\workspace\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (E:\workspace\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\workspace\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+
+pid: 29024
+hostname: DESKTOP-R22V4MU
+
+2024-08-31 20:38:08,322 ERROR 31356 [-/::1/-/9ms GET /saylo/getLabelDetails] nodejs.TypeError: Cannot read properties of undefined (reading '4')
+    at E:\workspace\egg-example\app\service\saylo.js:21:22
+    at Array.forEach (<anonymous>)
+    at countOccurrences (E:\workspace\egg-example\app\service\saylo.js:19:25)
+    at E:\workspace\egg-example\app\service\saylo.js:217:38
+    at Array.forEach (<anonymous>)
+    at SayloService.getLabelDetails (E:\workspace\egg-example\app\service\saylo.js:205:35)
+    at async SayloController.getLabelDetails (E:\workspace\egg-example\app\controller\saylo.js:14:22)
+    at async E:\workspace\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (E:\workspace\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\workspace\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+
+pid: 31356
+hostname: DESKTOP-R22V4MU
+
+2024-08-31 20:38:43,363 ERROR 28340 [-/::1/-/7ms GET /saylo/getLabelDetails] nodejs.TypeError: Cannot read properties of undefined (reading '4')
+    at E:\workspace\egg-example\app\service\saylo.js:21:22
+    at Array.forEach (<anonymous>)
+    at countOccurrences (E:\workspace\egg-example\app\service\saylo.js:19:25)
+    at E:\workspace\egg-example\app\service\saylo.js:217:38
+    at Array.forEach (<anonymous>)
+    at SayloService.getLabelDetails (E:\workspace\egg-example\app\service\saylo.js:205:35)
+    at async SayloController.getLabelDetails (E:\workspace\egg-example\app\controller\saylo.js:14:22)
+    at async E:\workspace\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (E:\workspace\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\workspace\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+
+pid: 28340
+hostname: DESKTOP-R22V4MU
+
